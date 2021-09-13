@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
 </head>
 
 <body class="bg-gradient-primary">
@@ -26,15 +27,17 @@
                             <div class="text-center">
                                 <h4 class="text-dark mb-4">Crea tu cuenta!</h4>
                             </div>
-                            <form class="user">
-                                <div class="row mb-3">
-                                    <div class="mb-3"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Correo" name="email"></div>
-                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Nombre Completo" name="complete_name"></div>
-                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Compañía" name="company"></div>
+                            <form class="user" action="dashboard.php" method="post">
+                                <div class="row" style="margin: 1em 0;">
+                                    <div class="col"><input class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Nombre Completo" name="complete_name"></div>
                                 </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Contraseña" name="Password"></div>
-                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Confirmar Contraseña" name="password_repeat"></div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em;"><input class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Compañía" name="company" style="margin-bottom: 1em;"></div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em;"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Correo" name="email" required="" style="margin-bottom: 1em;"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em;"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Contraseña" name="password" required="" style="margin-bottom: 1em;"></div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6" style="margin-bottom: 1em;"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Confirmar Contraseña" name="confirm_password" required=""></div>
                                 </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Registrarse</button>
                                 <hr>
                             </form>
