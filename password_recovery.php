@@ -14,31 +14,33 @@
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
 </head>
 
-<body id="page-top">
-    <div id="wrapper">
-        <div class="d-flex flex-column" id="content-wrapper">
-            <div id="content">
-                <div class="container-fluid">
-                    <section class="newsletter-subscribe">
-                        <div class="container">
-                            <div class="intro">
-                                <h2 class="text-center">Perdí mi contraseña</h2>
+<body id="page-top" style="background: var(--bs-blue);">
+    <div class="container" style="margin: 10em auto;">
+        <div id="wrapper">
+            <div class="d-flex flex-column" id="content-wrapper">
+                <div id="content">
+                    <div class="container-fluid">
+                        <section class="newsletter-subscribe">
+                            <div class="container">
+                                <div class="intro">
+                                    <h2 class="text-center">Perdí mi contraseña</h2>
+                                </div>
+                                <form class="d-flex justify-content-center flex-wrap" method="post" action="email_successful.php">
+                                    <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Correo" required=""></div>
+                                    <div class="mb-3"><button class="btn btn-primary" type="submit">Recuperar contraseña</button></div>
+                                </form>
+                                <div class="d-lg-flex justify-content-lg-center"><a href="login.php">Ingresar a mi cuenta</a></div>
                             </div>
-                            <form class="d-flex justify-content-center flex-wrap" method="post">
-                                <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Correo"></div>
-                                <div class="mb-3"><button class="btn btn-primary" type="submit">Recuperar contraseña</button></div>
-                            </form>
-                            <div class="d-lg-flex justify-content-lg-center"><a href="login.php">Ingresar a mi cuenta</a></div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <footer class="bg-white sticky-footer">
-                <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright © Carta_2 2021</span></div>
-                </div>
-            </footer>
-        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+                <footer class="bg-white sticky-footer">
+                    <div class="container my-auto">
+                        <div class="text-center my-auto copyright"><span>Copyright © Carta_2 2021</span></div>
+                    </div>
+                </footer>
+            </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

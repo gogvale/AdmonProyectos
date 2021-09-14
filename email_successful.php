@@ -14,27 +14,29 @@
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
 </head>
 
-<body id="page-top">
-    <div id="wrapper">
-        <div class="d-flex flex-column" id="content-wrapper">
-            <div id="content">
-                <div class="container-fluid">
-                    <section class="newsletter-subscribe">
-                        <div class="container">
-                            <div class="intro">
-                                <h2 class="text-center">Correo enviado exitosamente&nbsp;<i class="fa fa-check-circle" style="color: var(--bs-green);"></i></h2>
+<body id="page-top" style="background: var(--bs-blue);margin: 10em auto;">
+    <div class="container">
+        <div id="wrapper">
+            <div class="d-flex flex-column" id="content-wrapper">
+                <div id="content">
+                    <div class="container-fluid">
+                        <section class="newsletter-subscribe">
+                            <div class="container">
+                                <div class="intro">
+                                    <h2 class="text-center">Correo enviado exitosamente&nbsp;<i class="fa fa-check-circle" style="color: var(--bs-green);"></i></h2>
+                                </div>
+                                <div class="d-lg-flex justify-content-lg-center"><a href="login.php">Regresar a la pantalla de login</a></div>
                             </div>
-                            <div class="d-lg-flex justify-content-lg-center"><a href="login.php">Regresar a la pantalla de login</a></div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <footer class="bg-white sticky-footer">
-                <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright © Carta_2 2021</span></div>
-                </div>
-            </footer>
-        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+                <footer class="bg-white sticky-footer">
+                    <div class="container my-auto">
+                        <div class="text-center my-auto copyright"><span>Copyright © Carta_2 2021</span></div>
+                    </div>
+                </footer>
+            </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

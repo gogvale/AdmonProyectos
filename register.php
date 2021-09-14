@@ -42,7 +42,7 @@
                                 <hr>
                             </form>
                             <div class="text-center"></div>
-                            <div class="text-center"><a class="small" href="login.html">Ya tengo una cuenta</a></div>
+                            <div class="text-center"><a class="small" href="login.php">Ya tengo una cuenta</a></div>
                         </div>
                     </div>
                 </div>

@@ -39,8 +39,8 @@
                                         </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Login</button>
                                         <hr>
                                     </form>
-                                    <div class="text-center"><a class="small" href="forgot-password.html">Olvidé mi contraseña</a></div>
-                                    <div class="text-center"><a class="small" href="register.html">Registrarme</a></div>
+                                    <div class="text-center"><a class="small" href="password_recovery.php">Olvidé mi contraseña</a></div>
+                                    <div class="text-center"><a class="small" href="register.php">Registrarme</a></div>
                                 </div>
                             </div>
                         </div>
